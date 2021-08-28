@@ -1,6 +1,6 @@
 #!/bin/bash
 #Moura dev calculadora 1.0
-log=./log/calculadora.log
+log=./log/calculadorashell.log
 if [ $1 != null ]; then
    echo "##### RESULTADO  #####"
    echo " $1 / $2"

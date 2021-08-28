@@ -1,13 +1,13 @@
 #!/bin/bash
 log=./shell/log/ping.log
-if [ $1 != null ] && ! ping -c 1 $1 >> /dev/null ; then
-  echo "##### TESTANDO PING   #####"
-  echo -e " \033[0;31m LINK DOWM $1  \033[0m "
-  echo -e "log_ping: LINK-DOWN - $1 USER:  "${USER}  "DATA: " `date +%d/%m/%Y" HORA: "%H:%M:%S`  >> $log
-  elif   ping -c 1 $1 >> /dev/null ; then
-  echo "##### TESTANDO PING   #####"
-  echo -e " \033[0;32m LINK UP $1  \033[0m " 
-  echo -e "log_ping: LINK-UP - $1 USER:  "${USER}  "DATA: " `date +%d/%m/%Y" HORA: "%H:%M:%S`  >> $log
+  if [ $1 != null ] && ! ping -c 1 $1 1> /dev/null   ; then
+    echo "##### TESTANDO PING   #####"
+    echo -e " \033[0;31m LINK DOWM $1  \033[0m "
+    echo -e "log_ping: LINK-UP - $1 USER:  "${USER}  "DATA: " `date +%d/%m/%Y" HORA: "%H:%M:%S`  >> $log
+    elif   ping -c 1 $1 >> /dev/null ; then
+    echo "##### TESTANDO PING   #####"
+    echo -e " \033[0;32m LINK UP $1  \033[0m " 
+    echo -e "log_ping: LINK-UP - $1 USER:  "${USER}  "DATA: " `date +%d/%m/%Y" HORA: "%H:%M:%S`  >> $log 
 else
   while true
   do
@@ -40,14 +40,14 @@ if ! ping -c 1 $IP >> /dev/null ; then
 --borders=10 --button="Sair:0"  \
 --text="
 <span font_weight='bold' font='20' color='#FF0000'>LINK DOWN - $IP</span>"
-echo -e "log_ping: LINK-DOWN - $IP USER:  "${USER}  "DATA: " `date +%d/%m/%Y" HORA: "%H:%M:%S`  >> $log
+echo -e "log_ping: LINK-DOWN - $IP USER:  "${USER}  "DATA: " `date +%d/%m/%Y" HORA: "%H:%M:%S`  >> "log_ping"
 ######################################################
 else
 yad --form --title="Informação!" --height=40 --width=500 --auto-close \
 --center \
 --borders=10 --button="Sair:0"  \
 --text="<span font_weight='bold' font='20' color='#00FF00'>LINK UP - $IP </span>"
-echo -e "log_ping: LINK-UP - $IP USER:  "${USER}  "DATA: " `date +%d/%m/%Y" HORA: "%H:%M:%S`  >> $log
+echo -e "log_ping: LINK-UP - $IP USER:  "${USER}  "DATA: " `date +%d/%m/%Y" HORA: "%H:%M:%S`  >> "log_ping"
 ############################################
 
 fi

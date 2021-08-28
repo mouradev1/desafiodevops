@@ -8,7 +8,7 @@ Desfio devops foi um teste de hablidade para vaga interna de devops,com objtivo 
 
 ## Layout shell script
 ![Main.sh](https://mouradev.net/img/main.png) ![Ping shell](https://mouradev.net/img/pingshell.png.png)
-![Result calculo shell](https://mouradev.net/img/resultcalculo.png)
+![Result calculo shell](https://mouradev.net/img/resultcalculo.png)![Resultado ping UP](https://mouradev.net/img/resultup.png)
 
 
 # Tecnologias utilizadas

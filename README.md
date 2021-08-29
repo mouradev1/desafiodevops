@@ -19,13 +19,6 @@ Desfio devops foi um teste de hablidade para vaga interna de devops,com objtivo 
 - PHP
 
 ```bash
-# clonar repositório
-git clone git@github.com:mouradev1/desafiodevops.git
-# Da permissão a pasta do projeto
-sudo chmod +x desafiodevops/*
-# entrar na pasta do desafiodevops
-cd desafiodevops
-
 # instalar dependências
 DEBIAN
 sudo apt update
@@ -38,6 +31,12 @@ UBUNTU
 sudo apt-get update -y
 sudo apt-get install -y zenity
 sudo apt install php libapache2-mod-php
+# clonar repositório
+git clone git@github.com:mouradev1/desafiodevops.git
+# Da permissão a pasta do projeto
+sudo chmod +x desafiodevops/*
+# entrar na pasta do desafiodevops
+cd desafiodevops
 
 # executar o projeto
 Para abri o menu com os scripts em shell sigar o comando abaixo

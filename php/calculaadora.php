@@ -2,7 +2,7 @@
 function logphp($log)
 {
     $fp = fopen("./log/calculadoraphp.log", "a");
-    fwrite($fp, $log . "\n");
+    fwrite($fp, $log ."\n");
     fclose($fp);
 };
 if (count($argv) == 1) {

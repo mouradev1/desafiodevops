@@ -13,6 +13,7 @@ if len(sys.argv) > 1:
     B =float(sys.argv[2])
     calculadora(A,B)
 else:
-    A = float(input("Digite um inteiro: "))
-    B = float(input("Digite outro inteiro: "))
+    ##valida soma
+    A = float(input("Digite um Numero: "))
+    B = float(input("Digite outro Numero: "))
     calculadora(A,B)

@@ -25,14 +25,16 @@ sudo apt update
 sudo apt install snapd
 sudo snap install core
 sudo snap install zenity
+sudo apt install yad
 sudo apt -y install php7.4
 
 UBUNTU 
 sudo apt-get update -y
 sudo apt-get install -y zenity
+sudo apt install yad
 sudo apt install php libapache2-mod-php
 # clonar repositório
-git clone git@github.com:mouradev1/desafiodevops.git
+git clone https://github.com/mouradev1/desafiodevops.git
 # Da permissão a pasta do projeto
 sudo chmod +x desafiodevops/*
 # entrar na pasta do desafiodevops

@@ -59,7 +59,7 @@ php php/ping.php google.com
 php php/calculaadora.php 23 3
 
 ```
-# Teste ping php Online
+# Teste ping Online em PHP
 http://mouradev.net/ping/
 
 # Autor

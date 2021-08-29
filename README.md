@@ -56,9 +56,9 @@ python3 python/calculadora.py
 php php/ping.php google.com
 php php/calculaadora.php 23 3
 
-### Teste Online
-http://mouradev.net/ping/
 ```
+# Teste ping php Online
+http://mouradev.net/ping/
 
 # Autor
 

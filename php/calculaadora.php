@@ -2,21 +2,25 @@
 function logphp($log)
 {
     $fp = fopen("./log/calculadoraphp.log", "a");
-    fwrite($fp, $log ."\n");
+    fwrite($fp, $log . "\n");
     fclose($fp);
 };
-if (count($argv) == 1) {
+
+function calcular()
+{
     $a = 23;
     $b = 3;
     $result = $a / $b;
-    $valor = "Resultado da soma setada no codigo: " . number_format($result, 1, '.', '');
+    $valor = "Resultado da soma codigo: " . number_format($result, 1, '.', '');
     echo $valor;
     logphp($valor);
-} else {
+}
+if (count($argv) < 1) {
     $a = $argv[1];
     $b = $argv[2];
-    $result = $a / $b;
-    $valor = "Resultado da soma passada por parametro: " . number_format($result, 1, '.', '');
-    echo $valor;
-    logphp($valor);
+    calcular($a,$b);
+} else {
+    $a = 23;
+    $b = 3;
+    calcular($a,$b);
 }

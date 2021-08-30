@@ -26,7 +26,7 @@ sudo apt install snapd
 sudo snap install core
 sudo snap install zenity
 sudo apt install yad
-sudo apt -y install php7.4
+sudo apt -y install php
 # clonar repositório
 git clone https://github.com/mouradev1/desafiodevops.git
 # Da permissão a pasta do projeto

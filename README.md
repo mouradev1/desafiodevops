@@ -18,17 +18,26 @@ Desfio devops foi um teste de hablidade para vaga interna de devops,com objtivo 
 - PYTHON
 - PHP
 
+# Instalar dependências
+# DEBIAN
 ```bash
-# instalar dependências
-DEBIAN
 sudo apt update
 sudo apt install snapd
 sudo snap install core
 sudo snap install zenity
 sudo apt install yad
 sudo apt -y install php7.4
+# clonar repositório
+git clone https://github.com/mouradev1/desafiodevops.git
+# Da permissão a pasta do projeto
+sudo chmod +x desafiodevops/*
+# entrar na pasta do desafiodevops
+cd desafiodevops
+```
+# UBUNTU
 
-UBUNTU 
+```bash
+ 
 sudo apt-get update -y
 sudo apt-get install -y zenity
 sudo apt install yad
@@ -40,26 +49,31 @@ sudo chmod +x desafiodevops/*
 # entrar na pasta do desafiodevops
 cd desafiodevops
 
+```
 # executar o projeto
 Para abri o menu com os scripts em shell sigar o comando abaixo
 
 ./main.sh
 
-##Passando paramentro por script em shell, sigo os exemplo abaixo 
+## Passando paramentro por script em shell, sigo os exemplo abaixo 
 ./ping.sh google.com
 
 ./calculadora.sh 23 3
 
-##Passando paramentro por script em python, sigo os exemplo abaixo 
+## Passando paramentro por script em python, sigo os exemplo abaixo 
 python3 python/ping.py google.com
 python3 python/calculadora.py
 
-##Passando paramentro por script em PHP, sigo os exemplo abaixo 
+## Passando paramentro por script em PHP, sigo os exemplo abaixo 
 php php/ping.php google.com
 php php/calculaadora.php 23 3
 
+<<<<<<< HEAD
+# Teste ping php Online
+=======
 ```
 # Teste ping Online em PHP
+>>>>>>> 7b1b0a2e068d1fdafed8a8f780ab947d586d5e9b
 http://mouradev.net/ping/
 
 # Autor

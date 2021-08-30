@@ -1,4 +1,5 @@
 <?php
+//dev moura
 function logphp($log)
 {
     $fp = fopen("./log/calculadoraphp.log", "a");

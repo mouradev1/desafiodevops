@@ -1,4 +1,5 @@
 <?php
+//dev moura
 function ping($ip)
 {
     exec("ping -c 3 " . $ip, $output, $result);

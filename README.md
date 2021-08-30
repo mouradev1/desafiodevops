@@ -68,12 +68,12 @@ python3 python/calculadora.py
 php php/ping.php google.com
 php php/calculaadora.php 23 3
 
-<<<<<<< HEAD
+
 # Teste ping php Online
 =======
 ```
 # Teste ping Online em PHP
->>>>>>> 7b1b0a2e068d1fdafed8a8f780ab947d586d5e9b
+
 http://mouradev.net/ping/
 
 # Autor

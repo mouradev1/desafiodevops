@@ -33,6 +33,7 @@ git clone https://github.com/mouradev1/desafiodevops.git
 sudo chmod +x desafiodevops/*
 # entrar na pasta do desafiodevops
 cd desafiodevops
+./main.sh
 ```
 # UBUNTU
 
@@ -48,6 +49,7 @@ git clone https://github.com/mouradev1/desafiodevops.git
 sudo chmod +x desafiodevops/*
 # entrar na pasta do desafiodevops
 cd desafiodevops
+./main.sh
 
 ```
 # executar o projeto
